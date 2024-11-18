@@ -32,8 +32,43 @@ class Matriz:
             for e in fila:
                 print(f"{e:-8.2f}", end="")
             print(" ")
-    
-A= Matriz("[5 3 4;4 5 9;8 9 7]")
-A.imprimir() ##Se llama asi en esta formato ya que es un metodo
 
+        def dimensiones(self):
+    """Devuelve las dimensiones de la matriz."""
+    pass
 
+    def sumar(self, otra_matriz):
+    """Suma dos matrices."""
+    pass
+
+    def multiplicar_escalar(self, escalar):
+    """Multiplica la matriz por un escalar."""
+    pass
+
+    def multiplicar_matriz(self, otra_matriz):
+    """Multiplica dos matrices."""
+    pass
+
+    def son_iguales(self, otra_matriz):
+    """Verifica si dos matrices son iguales."""
+    pass
+
+    def traza(self):
+    """Calcula la traza de la matriz."""
+    pass
+
+    def traspuesta(self):
+    """Devuelve la traspuesta de la matriz."""
+    pass
+
+    def determinante_2x2(self):
+    """Calcula el determinante de una matriz 2x2."""
+    pass
+
+    def generar_identidad(self, tama~no):
+    """Genera una matriz identidad de tama~no n x n."""
+    pass
+
+    def determinante(self):
+    """Calcula el determinante de una matriz 3x3."""
+    pass
