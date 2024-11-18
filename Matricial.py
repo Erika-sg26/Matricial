@@ -33,42 +33,44 @@ class Matriz:
                 print(f"{e:-8.2f}", end="")
             print(" ")
 
-        def dimensiones(self):
-    """Devuelve las dimensiones de la matriz."""
-    pass
+    def dimensiones(self):
+        """Devuelve las dimensiones de la matriz."""
+        pass
 
     def sumar(self, otra_matriz):
-    """Suma dos matrices."""
-    pass
+        """Suma dos matrices."""
+        pass
 
     def multiplicar_escalar(self, escalar):
-    """Multiplica la matriz por un escalar."""
-    pass
+        """Multiplica la matriz por un escalar."""
+        pass
 
     def multiplicar_matriz(self, otra_matriz):
-    """Multiplica dos matrices."""
-    pass
+        """Multiplica dos matrices."""
+        pass
 
     def son_iguales(self, otra_matriz):
-    """Verifica si dos matrices son iguales."""
-    pass
+        """Verifica si dos matrices son iguales."""
+        pass
 
     def traza(self):
-    """Calcula la traza de la matriz."""
-    pass
+        """Calcula la traza de la matriz."""
+        pass
 
     def traspuesta(self):
-    """Devuelve la traspuesta de la matriz."""
-    pass
+        """Devuelve la traspuesta de la matriz."""
+        pass
 
     def determinante_2x2(self):
-    """Calcula el determinante de una matriz 2x2."""
-    pass
+        """Calcula el determinante de una matriz 2x2."""
+        pass
 
-    def generar_identidad(self, tama~no):
-    """Genera una matriz identidad de tama~no n x n."""
-    pass
+    def generar_identidad(self, tamano):
+        """Genera una matriz identidad de tama~no n x n."""
+        pass
 
     def determinante(self):
-    """Calcula el determinante de una matriz 3x3."""
-    pass
+        """Calcula el determinante de una matriz 3x3."""
+        pass
+
+
