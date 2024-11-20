@@ -1,4 +1,5 @@
 #Proyecto matriz traspuesta
+
 A traves de mentado código, el usuario podrá ingresar una matriz de cualquier tamaño y obtener la matriz traspuesta de la misma.
 #Descripción
 Primeramente, dicho codigo generará una matriz de dimensiónes "f" x "c", las dimensiones de esta serán definidas previamente por el usuario.
