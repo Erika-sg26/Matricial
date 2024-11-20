@@ -2,7 +2,7 @@
 
 A traves de mentado código, el usuario podrá ingresar una matriz de cualquier tamaño y obtener la matriz traspuesta de la misma.
 
-#Descripción+
+#Descripción
 
 Primeramente, dicho codigo generará una matriz de dimensiónes "f" x "c", las dimensiones de esta serán definidas previamente por el usuario.
 Luego, el usario ingresará los valores de la matriz, los cuales serán almacenados en una lista para posteriormente ser impresos.
