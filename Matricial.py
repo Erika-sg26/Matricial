@@ -11,7 +11,7 @@ class Matriz:
         ncols=0
         Filas=[]
         for s in sfilas: ##Llena la lista vacia con los valores separados
-            filastr=s.split("")     
+            filastr=s.split()        
             if ncols==0:
                 ncols=len(filastr)
             elif ncols!=len(filastr):
@@ -59,7 +59,15 @@ class Matriz:
 
     def traspuesta(self):
         """Devuelve la traspuesta de la matriz."""
-        pass
+        matriz1= self.matriz
+        matriz2=[]
+        for i in range(self.nrows):
+            matriz2.append([0]*self.ncols)
+        for j in range(self.nrows):
+            for k in range(self.ncols):
+                matriz2[k][j]= matriz1[j][k]
+        self.matriz=matriz2
+
 
     def determinante_2x2(self):
         """Calcula el determinante de una matriz 2x2."""
