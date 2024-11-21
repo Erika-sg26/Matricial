@@ -42,8 +42,19 @@ class Matriz:
         pass
 
     def multiplicar_escalar(self, escalar):
-        """Multiplica la matriz por un escalar."""
-        pass
+        if not self.matriz:
+            #print("No se puede")
+            return None
+        res_matriz=[]
+    
+        for i in self.matriz:
+            nrows = [elemento * escalar for elemento in i]
+            res_matriz.append(nrows)
+    
+        return res_matriz
+    
+    
+
 
     def multiplicar_matriz(self, otra_matriz):
         """Multiplica dos matrices."""
