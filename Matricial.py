@@ -51,7 +51,7 @@ class Matriz:
             nrows = [elemento * escalar for elemento in i]
             res_matriz.append(nrows)
     
-        return res_matriz
+        self.matriz=res_matriz
     
     
 
@@ -82,7 +82,15 @@ class Matriz:
 
     def determinante_2x2(self):
         """Calcula el determinante de una matriz 2x2."""
-        pass
+        # Extraer los elementos de la matriz
+        a = matriz[0][0]
+        b = matriz[0][1]
+        c = matriz[1][0]
+        d = matriz[1][1] 
+        
+        # Calcular el determinante
+        determinante=a*d-b*c
+        return determinante
 
     def generar_identidad(self, n:int):
         """Genera una matriz identidad de tama~no n x n."""
