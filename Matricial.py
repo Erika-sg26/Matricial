@@ -42,17 +42,17 @@ class Matriz:
         pass
 
     def multiplicar_escalar(self, escalar):
-        if not self.matriz:
-            #print("No se puede")
-            return None
+        
         res_matriz=[]
     
         for i in self.matriz:
-            nrows = [elemento * escalar for elemento in i]
+            nrows = []
+            for elemento in i:
+                nrows.append(elemento * escalar)
             res_matriz.append(nrows)
-    
-        return res_matriz
-    
+        r=Matriz("[]")
+        r.matriz=res_matriz
+        return r
     
 
 
