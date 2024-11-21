@@ -53,7 +53,6 @@ class Matriz:
     
         return res_matriz
     
-    escalar= float(input("El escalar: "))
     
 
 
